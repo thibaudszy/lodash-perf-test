@@ -1,39 +1,41 @@
-# Lodash-es imports performance benchmark
+# Lodash-es Imports Performance Benchmark
 
-**No need to run npm install before running the benchmark**
+This repository is designed to test the performance impact of using barrel file imports on unit tests in JavaScript. Inspired by recent discussions on the performance drawbacks of barrel files, such as in the article ["Speeding up the JavaScript ecosystem - The barrel file debacle"](Speeding up the JavaScript ecosystem - The barrel file debacle), we aim to provide concrete data through benchmarking.
 
+## Running the Benchmark
 
-Recently, articles such as ["Speeding up the JavaScript ecosystem - The barrel file debacle"](Speeding up the JavaScript ecosystem - The barrel file debacle) have showcased the negative impact of barrel files on the performance of javascript tooling. This repo was made to test the performance impact of the use of barrel file imports on unit tests.
+To run the benchmark, simply clone this repository and execute the following command:
 
-## How to run the benchmark? 
-
-Simply clone this repo and run `npm run benchmark`
-
-This will run the same unit test suite both with and without the use of the barrel file. For both cases, the test suite is run 3 times to ensure the measured difference is not a fluke. 
-
-## How is the benchmark done? 
-The node modules contains two copies of `lodash-es`. One is the same as the one downloaded from npm, the other has this added to the package.json: 
-
-```json
-  "exports":{
-    ".": "./lodash.js",
-    "./*": "./*.js"
-  }
+```bash
+npm run benchmark
 ```
-This allows to import lodash function directly from the source file. 
 
-The test suites consist of a basic test for every lodash function that will just perform a type check on the import. 
+This command will run the same unit test suite both with and without the use of a barrel file. Each test suite is executed three times to ensure the accuracy and consistency of the results.
+
+## Benchmark Methodology
+
+The `node_modules` directory in this repository contains two versions of `lodash-es`:
+
+1. **Standard Version**: The original version downloaded from npm.
+2. **Modified Version**: This version has an additional entry in the `package.json`:
+   ```json
+   "exports": {
+     ".": "./lodash.js",
+     "./*": "./*.js"
+   }
+   ```
+   This modification allows importing lodash functions directly from their source files.
+
+The test suites perform basic type checks on each lodash function import to compare performance.
 
 ## Results
 
-Here are the results for the benchmark performed on my laptop(M1 Macbook air - node v22.2.0): 
+Below are the results from benchmarking on a MacBook Air with an M1 chip running Node.js v22.2.0:
 
--------------------------------------------
-|                 | Barrel (s)| Subpath (s)|
-|-----------------|-----------|------------|
-| Run #1          | 24.29     | 7.51       |
-| Run #2          | 24.45     | 6.86       |
-| Run #3          | 24.75     | 7.14       |
---------------------------------------------
+|            | Barrel (s) | Subpath (s) |
+| ---------- | ---------- | ----------- |
+| **Run #1** | 24.29      | 7.51        |
+| **Run #2** | 24.45      | 6.86        |
+| **Run #3** | 24.75      | 7.14        |
 
-Importing the functions via a subpath import results in a 3x+ improvement in speed. 
+Using subpath imports for lodash functions results in a performance improvement of over 3x compared to barrel file imports.
