@@ -8,8 +8,8 @@
     "benchmark": "sh benchmark.sh"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Thibaud Szymczak",
+  "license": "MIT",
   "dependencies": {
     "lodash-es": "^4.17.21"
   }
