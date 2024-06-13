@@ -3,7 +3,7 @@ import assert from 'assert';
 import conformsTo from 'lodash-es-with-subpaths/conformsTo';
 
 describe('conformsTo', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof conformsTo, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof conformsTo, 'function');
     });
 });

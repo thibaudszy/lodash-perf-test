@@ -3,7 +3,7 @@ import assert from 'assert';
 import now from 'lodash-es-with-subpaths/now';
 
 describe('now', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof now, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof now, 'function');
     });
 });

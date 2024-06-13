@@ -3,7 +3,7 @@ import assert from 'assert';
 import inRange from 'lodash-es-with-subpaths/inRange';
 
 describe('inRange', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof inRange, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof inRange, 'function');
     });
 });

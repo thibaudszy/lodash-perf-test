@@ -3,7 +3,7 @@ import assert from 'assert';
 import { sortedIndexOf } from 'lodash-es';
 
 describe('sortedIndexOf', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof sortedIndexOf, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof sortedIndexOf, 'function');
     });
 });

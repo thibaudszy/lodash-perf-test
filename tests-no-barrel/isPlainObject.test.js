@@ -3,7 +3,7 @@ import assert from 'assert';
 import isPlainObject from 'lodash-es-with-subpaths/isPlainObject';
 
 describe('isPlainObject', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isPlainObject, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isPlainObject, 'function');
     });
 });

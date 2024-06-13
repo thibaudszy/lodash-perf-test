@@ -3,7 +3,7 @@ import assert from 'assert';
 import bindKey from 'lodash-es-with-subpaths/bindKey';
 
 describe('bindKey', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof bindKey, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof bindKey, 'function');
     });
 });

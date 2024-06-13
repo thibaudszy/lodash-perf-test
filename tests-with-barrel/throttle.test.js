@@ -3,7 +3,7 @@ import assert from 'assert';
 import { throttle } from 'lodash-es';
 
 describe('throttle', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof throttle, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof throttle, 'function');
     });
 });

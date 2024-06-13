@@ -3,7 +3,7 @@ import assert from 'assert';
 import { templateSettings } from 'lodash-es';
 
 describe('templateSettings', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof templateSettings, object);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof templateSettings, 'object');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import uniq from 'lodash-es-with-subpaths/uniq';
 
 describe('uniq', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof uniq, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof uniq, 'function');
     });
 });

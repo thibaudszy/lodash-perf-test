@@ -310,10 +310,13 @@ const functions = [
 ];
 
 // WITH BARREL FILE
-const testsDir = path.join('tests-with-barrel');
+const testsDir = 'tests-with-barrel';
 
 // Create tests directory if it doesn't exist
 if (!fs.existsSync(testsDir)) {
+  fs.mkdirSync(testsDir);
+} else {
+  fs.rmSync(testsDir, { recursive: true });
   fs.mkdirSync(testsDir);
 }
 
@@ -326,9 +329,9 @@ import assert from 'assert';
 import { ${func} } from 'lodash-es';
 
 describe('${func}', () => {
-    it('should work as expected', () => {
+    it('should be of the expected type', () => {
         assert.strictEqual(typeof ${func}, ${
-    func === 'templateSettings' ? 'object' : 'function'
+    func === 'templateSettings' ? "'object'" : "'function'"
   });
     });
 });
@@ -343,11 +346,14 @@ console.log('Test files generated in the "tests-with-barrel" directory.');
 // WITHOUT BARREL FILE --------------------------------------------
 
 // Directory to save test files
-const testsDirNoBarrels = path.join('tests-no-barrel');
+const testsDirNoBarrels = 'tests-no-barrel';
 
 // Create tests directory if it doesn't exist
-if (!fs.existsSync(testsDir)) {
-  fs.mkdirSync(testsDir);
+if (!fs.existsSync(testsDirNoBarrels)) {
+  fs.mkdirSync(testsDirNoBarrels);
+} else {
+  fs.rmSync(testsDirNoBarrels, { recursive: true });
+  fs.mkdirSync(testsDirNoBarrels);
 }
 
 // Generate a test file for each lodash function
@@ -359,9 +365,9 @@ import assert from 'assert';
 import ${func} from 'lodash-es-with-subpaths/${func}';
 
 describe('${func}', () => {
-    it('should work as expected', () => {
+    it('should be of the expected type', () => {
         assert.strictEqual(typeof ${func}, ${
-    func === 'templateSettings' ? 'object' : 'function'
+    func === 'templateSettings' ? "'object'" : "'function'"
   });
     });
 });

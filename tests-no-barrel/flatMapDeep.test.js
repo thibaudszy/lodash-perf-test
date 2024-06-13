@@ -3,7 +3,7 @@ import assert from 'assert';
 import flatMapDeep from 'lodash-es-with-subpaths/flatMapDeep';
 
 describe('flatMapDeep', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof flatMapDeep, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof flatMapDeep, 'function');
     });
 });

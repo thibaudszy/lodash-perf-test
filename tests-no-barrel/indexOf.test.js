@@ -3,7 +3,7 @@ import assert from 'assert';
 import indexOf from 'lodash-es-with-subpaths/indexOf';
 
 describe('indexOf', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof indexOf, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof indexOf, 'function');
     });
 });

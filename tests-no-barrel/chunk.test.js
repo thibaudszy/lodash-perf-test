@@ -3,7 +3,7 @@ import assert from 'assert';
 import chunk from 'lodash-es-with-subpaths/chunk';
 
 describe('chunk', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof chunk, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof chunk, 'function');
     });
 });

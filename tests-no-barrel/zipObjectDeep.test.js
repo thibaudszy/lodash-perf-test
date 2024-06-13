@@ -3,7 +3,7 @@ import assert from 'assert';
 import zipObjectDeep from 'lodash-es-with-subpaths/zipObjectDeep';
 
 describe('zipObjectDeep', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof zipObjectDeep, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof zipObjectDeep, 'function');
     });
 });

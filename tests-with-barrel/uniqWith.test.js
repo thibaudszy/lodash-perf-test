@@ -3,7 +3,7 @@ import assert from 'assert';
 import { uniqWith } from 'lodash-es';
 
 describe('uniqWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof uniqWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof uniqWith, 'function');
     });
 });

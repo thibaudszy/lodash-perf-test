@@ -3,7 +3,7 @@ import assert from 'assert';
 import { startCase } from 'lodash-es';
 
 describe('startCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof startCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof startCase, 'function');
     });
 });

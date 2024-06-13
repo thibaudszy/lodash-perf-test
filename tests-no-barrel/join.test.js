@@ -3,7 +3,7 @@ import assert from 'assert';
 import join from 'lodash-es-with-subpaths/join';
 
 describe('join', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof join, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof join, 'function');
     });
 });

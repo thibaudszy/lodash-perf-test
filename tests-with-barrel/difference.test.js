@@ -3,7 +3,7 @@ import assert from 'assert';
 import { difference } from 'lodash-es';
 
 describe('difference', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof difference, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof difference, 'function');
     });
 });

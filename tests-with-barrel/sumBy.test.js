@@ -3,7 +3,7 @@ import assert from 'assert';
 import { sumBy } from 'lodash-es';
 
 describe('sumBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof sumBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof sumBy, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import { toNumber } from 'lodash-es';
 
 describe('toNumber', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof toNumber, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof toNumber, 'function');
     });
 });

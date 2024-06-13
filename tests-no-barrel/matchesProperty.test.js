@@ -3,7 +3,7 @@ import assert from 'assert';
 import matchesProperty from 'lodash-es-with-subpaths/matchesProperty';
 
 describe('matchesProperty', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof matchesProperty, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof matchesProperty, 'function');
     });
 });

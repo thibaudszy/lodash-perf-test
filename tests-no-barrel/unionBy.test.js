@@ -3,7 +3,7 @@ import assert from 'assert';
 import unionBy from 'lodash-es-with-subpaths/unionBy';
 
 describe('unionBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof unionBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof unionBy, 'function');
     });
 });

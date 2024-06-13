@@ -3,7 +3,7 @@ import assert from 'assert';
 import isArray from 'lodash-es-with-subpaths/isArray';
 
 describe('isArray', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isArray, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isArray, 'function');
     });
 });

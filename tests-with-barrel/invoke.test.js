@@ -3,7 +3,7 @@ import assert from 'assert';
 import { invoke } from 'lodash-es';
 
 describe('invoke', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof invoke, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof invoke, 'function');
     });
 });

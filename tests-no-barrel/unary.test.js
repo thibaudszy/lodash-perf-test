@@ -3,7 +3,7 @@ import assert from 'assert';
 import unary from 'lodash-es-with-subpaths/unary';
 
 describe('unary', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof unary, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof unary, 'function');
     });
 });

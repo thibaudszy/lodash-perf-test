@@ -3,7 +3,7 @@ import assert from 'assert';
 import { parseInt } from 'lodash-es';
 
 describe('parseInt', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof parseInt, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof parseInt, 'function');
     });
 });

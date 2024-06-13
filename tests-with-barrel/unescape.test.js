@@ -3,7 +3,7 @@ import assert from 'assert';
 import { unescape } from 'lodash-es';
 
 describe('unescape', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof unescape, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof unescape, 'function');
     });
 });

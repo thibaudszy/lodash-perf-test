@@ -3,7 +3,7 @@ import assert from 'assert';
 import { cloneWith } from 'lodash-es';
 
 describe('cloneWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof cloneWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof cloneWith, 'function');
     });
 });

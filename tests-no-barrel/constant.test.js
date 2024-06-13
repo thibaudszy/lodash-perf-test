@@ -3,7 +3,7 @@ import assert from 'assert';
 import constant from 'lodash-es-with-subpaths/constant';
 
 describe('constant', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof constant, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof constant, 'function');
     });
 });

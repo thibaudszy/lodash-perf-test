@@ -3,7 +3,7 @@ import assert from 'assert';
 import after from 'lodash-es-with-subpaths/after';
 
 describe('after', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof after, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof after, 'function');
     });
 });

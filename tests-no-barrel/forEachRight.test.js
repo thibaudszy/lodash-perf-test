@@ -3,7 +3,7 @@ import assert from 'assert';
 import forEachRight from 'lodash-es-with-subpaths/forEachRight';
 
 describe('forEachRight', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof forEachRight, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof forEachRight, 'function');
     });
 });

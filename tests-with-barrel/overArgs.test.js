@@ -3,7 +3,7 @@ import assert from 'assert';
 import { overArgs } from 'lodash-es';
 
 describe('overArgs', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof overArgs, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof overArgs, 'function');
     });
 });

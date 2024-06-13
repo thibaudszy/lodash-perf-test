@@ -3,7 +3,7 @@ import assert from 'assert';
 import setWith from 'lodash-es-with-subpaths/setWith';
 
 describe('setWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof setWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof setWith, 'function');
     });
 });

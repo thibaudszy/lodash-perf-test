@@ -3,7 +3,7 @@ import assert from 'assert';
 import { invertBy } from 'lodash-es';
 
 describe('invertBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof invertBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof invertBy, 'function');
     });
 });

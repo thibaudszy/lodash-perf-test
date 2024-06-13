@@ -3,7 +3,7 @@ import assert from 'assert';
 import without from 'lodash-es-with-subpaths/without';
 
 describe('without', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof without, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof without, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import { toUpper } from 'lodash-es';
 
 describe('toUpper', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof toUpper, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof toUpper, 'function');
     });
 });

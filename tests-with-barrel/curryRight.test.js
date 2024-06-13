@@ -3,7 +3,7 @@ import assert from 'assert';
 import { curryRight } from 'lodash-es';
 
 describe('curryRight', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof curryRight, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof curryRight, 'function');
     });
 });

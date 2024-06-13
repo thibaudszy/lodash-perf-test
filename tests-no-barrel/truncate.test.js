@@ -3,7 +3,7 @@ import assert from 'assert';
 import truncate from 'lodash-es-with-subpaths/truncate';
 
 describe('truncate', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof truncate, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof truncate, 'function');
     });
 });

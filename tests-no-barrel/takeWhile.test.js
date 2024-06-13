@@ -3,7 +3,7 @@ import assert from 'assert';
 import takeWhile from 'lodash-es-with-subpaths/takeWhile';
 
 describe('takeWhile', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof takeWhile, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof takeWhile, 'function');
     });
 });

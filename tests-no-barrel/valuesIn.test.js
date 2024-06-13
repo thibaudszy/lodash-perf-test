@@ -3,7 +3,7 @@ import assert from 'assert';
 import valuesIn from 'lodash-es-with-subpaths/valuesIn';
 
 describe('valuesIn', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof valuesIn, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof valuesIn, 'function');
     });
 });

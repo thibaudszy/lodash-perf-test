@@ -3,7 +3,7 @@ import assert from 'assert';
 import before from 'lodash-es-with-subpaths/before';
 
 describe('before', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof before, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof before, 'function');
     });
 });

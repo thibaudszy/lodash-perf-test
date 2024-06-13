@@ -3,7 +3,7 @@ import assert from 'assert';
 import fromPairs from 'lodash-es-with-subpaths/fromPairs';
 
 describe('fromPairs', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof fromPairs, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof fromPairs, 'function');
     });
 });

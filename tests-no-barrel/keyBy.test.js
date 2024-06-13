@@ -3,7 +3,7 @@ import assert from 'assert';
 import keyBy from 'lodash-es-with-subpaths/keyBy';
 
 describe('keyBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof keyBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof keyBy, 'function');
     });
 });

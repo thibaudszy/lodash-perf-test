@@ -3,7 +3,7 @@ import assert from 'assert';
 import identity from 'lodash-es-with-subpaths/identity';
 
 describe('identity', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof identity, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof identity, 'function');
     });
 });

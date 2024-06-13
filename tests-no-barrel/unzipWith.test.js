@@ -3,7 +3,7 @@ import assert from 'assert';
 import unzipWith from 'lodash-es-with-subpaths/unzipWith';
 
 describe('unzipWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof unzipWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof unzipWith, 'function');
     });
 });

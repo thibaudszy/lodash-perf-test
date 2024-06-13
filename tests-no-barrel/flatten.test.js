@@ -3,7 +3,7 @@ import assert from 'assert';
 import flatten from 'lodash-es-with-subpaths/flatten';
 
 describe('flatten', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof flatten, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof flatten, 'function');
     });
 });

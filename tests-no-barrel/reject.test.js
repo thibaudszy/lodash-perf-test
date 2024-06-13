@@ -3,7 +3,7 @@ import assert from 'assert';
 import reject from 'lodash-es-with-subpaths/reject';
 
 describe('reject', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof reject, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof reject, 'function');
     });
 });

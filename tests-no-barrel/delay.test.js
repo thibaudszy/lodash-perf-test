@@ -3,7 +3,7 @@ import assert from 'assert';
 import delay from 'lodash-es-with-subpaths/delay';
 
 describe('delay', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof delay, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof delay, 'function');
     });
 });

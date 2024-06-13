@@ -3,7 +3,7 @@ import assert from 'assert';
 import { sortedUniqBy } from 'lodash-es';
 
 describe('sortedUniqBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof sortedUniqBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof sortedUniqBy, 'function');
     });
 });

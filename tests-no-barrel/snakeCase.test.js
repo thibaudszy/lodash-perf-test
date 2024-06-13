@@ -3,7 +3,7 @@ import assert from 'assert';
 import snakeCase from 'lodash-es-with-subpaths/snakeCase';
 
 describe('snakeCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof snakeCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof snakeCase, 'function');
     });
 });

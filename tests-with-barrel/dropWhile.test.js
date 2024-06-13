@@ -3,7 +3,7 @@ import assert from 'assert';
 import { dropWhile } from 'lodash-es';
 
 describe('dropWhile', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof dropWhile, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof dropWhile, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import { maxBy } from 'lodash-es';
 
 describe('maxBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof maxBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof maxBy, 'function');
     });
 });

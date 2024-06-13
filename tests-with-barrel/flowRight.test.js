@@ -3,7 +3,7 @@ import assert from 'assert';
 import { flowRight } from 'lodash-es';
 
 describe('flowRight', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof flowRight, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof flowRight, 'function');
     });
 });

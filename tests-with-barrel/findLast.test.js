@@ -3,7 +3,7 @@ import assert from 'assert';
 import { findLast } from 'lodash-es';
 
 describe('findLast', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof findLast, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof findLast, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import intersectionBy from 'lodash-es-with-subpaths/intersectionBy';
 
 describe('intersectionBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof intersectionBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof intersectionBy, 'function');
     });
 });

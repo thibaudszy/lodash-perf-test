@@ -3,7 +3,7 @@ import assert from 'assert';
 import isArrayBuffer from 'lodash-es-with-subpaths/isArrayBuffer';
 
 describe('isArrayBuffer', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isArrayBuffer, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isArrayBuffer, 'function');
     });
 });

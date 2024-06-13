@@ -3,7 +3,7 @@ import assert from 'assert';
 import toLower from 'lodash-es-with-subpaths/toLower';
 
 describe('toLower', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof toLower, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof toLower, 'function');
     });
 });

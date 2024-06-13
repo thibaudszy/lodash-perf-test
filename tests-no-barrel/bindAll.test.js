@@ -3,7 +3,7 @@ import assert from 'assert';
 import bindAll from 'lodash-es-with-subpaths/bindAll';
 
 describe('bindAll', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof bindAll, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof bindAll, 'function');
     });
 });

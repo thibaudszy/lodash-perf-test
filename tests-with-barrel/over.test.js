@@ -3,7 +3,7 @@ import assert from 'assert';
 import { over } from 'lodash-es';
 
 describe('over', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof over, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof over, 'function');
     });
 });

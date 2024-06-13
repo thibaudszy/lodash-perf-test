@@ -3,7 +3,7 @@ import assert from 'assert';
 import merge from 'lodash-es-with-subpaths/merge';
 
 describe('merge', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof merge, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof merge, 'function');
     });
 });

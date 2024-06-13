@@ -3,7 +3,7 @@ import assert from 'assert';
 import camelCase from 'lodash-es-with-subpaths/camelCase';
 
 describe('camelCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof camelCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof camelCase, 'function');
     });
 });

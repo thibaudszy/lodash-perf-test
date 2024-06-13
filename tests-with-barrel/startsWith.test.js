@@ -3,7 +3,7 @@ import assert from 'assert';
 import { startsWith } from 'lodash-es';
 
 describe('startsWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof startsWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof startsWith, 'function');
     });
 });

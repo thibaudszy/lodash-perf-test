@@ -3,7 +3,7 @@ import assert from 'assert';
 import isRegExp from 'lodash-es-with-subpaths/isRegExp';
 
 describe('isRegExp', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isRegExp, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isRegExp, 'function');
     });
 });

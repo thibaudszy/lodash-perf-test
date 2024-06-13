@@ -3,7 +3,7 @@ import assert from 'assert';
 import { partition } from 'lodash-es';
 
 describe('partition', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof partition, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof partition, 'function');
     });
 });

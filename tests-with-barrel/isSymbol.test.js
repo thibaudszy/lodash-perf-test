@@ -3,7 +3,7 @@ import assert from 'assert';
 import { isSymbol } from 'lodash-es';
 
 describe('isSymbol', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isSymbol, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isSymbol, 'function');
     });
 });

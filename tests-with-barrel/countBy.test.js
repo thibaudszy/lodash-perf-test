@@ -3,7 +3,7 @@ import assert from 'assert';
 import { countBy } from 'lodash-es';
 
 describe('countBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof countBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof countBy, 'function');
     });
 });

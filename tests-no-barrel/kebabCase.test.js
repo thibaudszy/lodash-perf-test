@@ -3,7 +3,7 @@ import assert from 'assert';
 import kebabCase from 'lodash-es-with-subpaths/kebabCase';
 
 describe('kebabCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof kebabCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof kebabCase, 'function');
     });
 });

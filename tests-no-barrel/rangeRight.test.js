@@ -3,7 +3,7 @@ import assert from 'assert';
 import rangeRight from 'lodash-es-with-subpaths/rangeRight';
 
 describe('rangeRight', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof rangeRight, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof rangeRight, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import capitalize from 'lodash-es-with-subpaths/capitalize';
 
 describe('capitalize', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof capitalize, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof capitalize, 'function');
     });
 });

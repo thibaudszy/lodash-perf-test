@@ -3,7 +3,7 @@ import assert from 'assert';
 import { isWeakMap } from 'lodash-es';
 
 describe('isWeakMap', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isWeakMap, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isWeakMap, 'function');
     });
 });

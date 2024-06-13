@@ -3,7 +3,7 @@ import assert from 'assert';
 import { endsWith } from 'lodash-es';
 
 describe('endsWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof endsWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof endsWith, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import mixin from 'lodash-es-with-subpaths/mixin';
 
 describe('mixin', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof mixin, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof mixin, 'function');
     });
 });

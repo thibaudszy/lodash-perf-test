@@ -3,7 +3,7 @@ import assert from 'assert';
 import hasIn from 'lodash-es-with-subpaths/hasIn';
 
 describe('hasIn', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof hasIn, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof hasIn, 'function');
     });
 });

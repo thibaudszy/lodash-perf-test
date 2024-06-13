@@ -3,7 +3,7 @@ import assert from 'assert';
 import upperCase from 'lodash-es-with-subpaths/upperCase';
 
 describe('upperCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof upperCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof upperCase, 'function');
     });
 });

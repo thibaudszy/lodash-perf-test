@@ -3,7 +3,7 @@ import assert from 'assert';
 import { nth } from 'lodash-es';
 
 describe('nth', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof nth, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof nth, 'function');
     });
 });

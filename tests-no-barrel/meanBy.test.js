@@ -3,7 +3,7 @@ import assert from 'assert';
 import meanBy from 'lodash-es-with-subpaths/meanBy';
 
 describe('meanBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof meanBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof meanBy, 'function');
     });
 });

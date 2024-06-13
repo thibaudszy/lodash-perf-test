@@ -3,7 +3,7 @@ import assert from 'assert';
 import sortBy from 'lodash-es-with-subpaths/sortBy';
 
 describe('sortBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof sortBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof sortBy, 'function');
     });
 });

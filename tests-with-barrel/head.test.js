@@ -3,7 +3,7 @@ import assert from 'assert';
 import { head } from 'lodash-es';
 
 describe('head', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof head, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof head, 'function');
     });
 });

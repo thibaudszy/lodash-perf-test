@@ -3,7 +3,7 @@ import assert from 'assert';
 import isError from 'lodash-es-with-subpaths/isError';
 
 describe('isError', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isError, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isError, 'function');
     });
 });

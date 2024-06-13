@@ -3,7 +3,7 @@ import assert from 'assert';
 import pullAllWith from 'lodash-es-with-subpaths/pullAllWith';
 
 describe('pullAllWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof pullAllWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof pullAllWith, 'function');
     });
 });

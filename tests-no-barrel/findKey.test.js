@@ -3,7 +3,7 @@ import assert from 'assert';
 import findKey from 'lodash-es-with-subpaths/findKey';
 
 describe('findKey', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof findKey, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof findKey, 'function');
     });
 });

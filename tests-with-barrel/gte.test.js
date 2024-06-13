@@ -3,7 +3,7 @@ import assert from 'assert';
 import { gte } from 'lodash-es';
 
 describe('gte', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof gte, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof gte, 'function');
     });
 });

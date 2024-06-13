@@ -3,7 +3,7 @@ import assert from 'assert';
 import initial from 'lodash-es-with-subpaths/initial';
 
 describe('initial', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof initial, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof initial, 'function');
     });
 });

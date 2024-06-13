@@ -3,7 +3,7 @@ import assert from 'assert';
 import get from 'lodash-es-with-subpaths/get';
 
 describe('get', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof get, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof get, 'function');
     });
 });

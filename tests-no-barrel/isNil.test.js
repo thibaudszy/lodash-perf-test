@@ -3,7 +3,7 @@ import assert from 'assert';
 import isNil from 'lodash-es-with-subpaths/isNil';
 
 describe('isNil', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isNil, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isNil, 'function');
     });
 });

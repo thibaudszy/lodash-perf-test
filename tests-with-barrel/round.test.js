@@ -3,7 +3,7 @@ import assert from 'assert';
 import { round } from 'lodash-es';
 
 describe('round', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof round, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof round, 'function');
     });
 });

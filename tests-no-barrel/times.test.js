@@ -3,7 +3,7 @@ import assert from 'assert';
 import times from 'lodash-es-with-subpaths/times';
 
 describe('times', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof times, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof times, 'function');
     });
 });

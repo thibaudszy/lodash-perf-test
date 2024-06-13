@@ -3,7 +3,7 @@ import assert from 'assert';
 import concat from 'lodash-es-with-subpaths/concat';
 
 describe('concat', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof concat, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof concat, 'function');
     });
 });

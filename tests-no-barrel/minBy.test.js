@@ -3,7 +3,7 @@ import assert from 'assert';
 import minBy from 'lodash-es-with-subpaths/minBy';
 
 describe('minBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof minBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof minBy, 'function');
     });
 });

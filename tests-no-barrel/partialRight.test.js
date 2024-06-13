@@ -3,7 +3,7 @@ import assert from 'assert';
 import partialRight from 'lodash-es-with-subpaths/partialRight';
 
 describe('partialRight', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof partialRight, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof partialRight, 'function');
     });
 });

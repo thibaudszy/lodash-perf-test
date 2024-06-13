@@ -3,7 +3,7 @@ import assert from 'assert';
 import { xorWith } from 'lodash-es';
 
 describe('xorWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof xorWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof xorWith, 'function');
     });
 });

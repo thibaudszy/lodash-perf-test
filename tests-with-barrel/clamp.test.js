@@ -3,7 +3,7 @@ import assert from 'assert';
 import { clamp } from 'lodash-es';
 
 describe('clamp', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof clamp, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof clamp, 'function');
     });
 });

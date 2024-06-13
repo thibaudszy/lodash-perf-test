@@ -3,7 +3,7 @@ import assert from 'assert';
 import fill from 'lodash-es-with-subpaths/fill';
 
 describe('fill', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof fill, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof fill, 'function');
     });
 });

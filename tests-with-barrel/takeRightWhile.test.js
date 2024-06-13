@@ -3,7 +3,7 @@ import assert from 'assert';
 import { takeRightWhile } from 'lodash-es';
 
 describe('takeRightWhile', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof takeRightWhile, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof takeRightWhile, 'function');
     });
 });

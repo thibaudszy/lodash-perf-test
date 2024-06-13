@@ -3,7 +3,7 @@ import assert from 'assert';
 import { every } from 'lodash-es';
 
 describe('every', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof every, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof every, 'function');
     });
 });

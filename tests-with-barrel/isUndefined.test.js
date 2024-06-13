@@ -3,7 +3,7 @@ import assert from 'assert';
 import { isUndefined } from 'lodash-es';
 
 describe('isUndefined', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isUndefined, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isUndefined, 'function');
     });
 });

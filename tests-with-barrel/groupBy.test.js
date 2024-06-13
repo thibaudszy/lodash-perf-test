@@ -3,7 +3,7 @@ import assert from 'assert';
 import { groupBy } from 'lodash-es';
 
 describe('groupBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof groupBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof groupBy, 'function');
     });
 });

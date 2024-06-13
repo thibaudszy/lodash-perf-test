@@ -3,7 +3,7 @@ import assert from 'assert';
 import { forOwn } from 'lodash-es';
 
 describe('forOwn', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof forOwn, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof forOwn, 'function');
     });
 });

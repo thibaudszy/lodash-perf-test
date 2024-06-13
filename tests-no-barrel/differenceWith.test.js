@@ -3,7 +3,7 @@ import assert from 'assert';
 import differenceWith from 'lodash-es-with-subpaths/differenceWith';
 
 describe('differenceWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof differenceWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof differenceWith, 'function');
     });
 });

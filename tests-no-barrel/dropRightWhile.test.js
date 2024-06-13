@@ -3,7 +3,7 @@ import assert from 'assert';
 import dropRightWhile from 'lodash-es-with-subpaths/dropRightWhile';
 
 describe('dropRightWhile', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof dropRightWhile, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof dropRightWhile, 'function');
     });
 });

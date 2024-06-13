@@ -3,7 +3,7 @@ import assert from 'assert';
 import multiply from 'lodash-es-with-subpaths/multiply';
 
 describe('multiply', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof multiply, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof multiply, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import pickBy from 'lodash-es-with-subpaths/pickBy';
 
 describe('pickBy', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof pickBy, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof pickBy, 'function');
     });
 });

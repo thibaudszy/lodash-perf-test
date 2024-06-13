@@ -3,7 +3,7 @@ import assert from 'assert';
 import compact from 'lodash-es-with-subpaths/compact';
 
 describe('compact', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof compact, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof compact, 'function');
     });
 });

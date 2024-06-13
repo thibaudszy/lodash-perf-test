@@ -3,7 +3,7 @@ import assert from 'assert';
 import nthArg from 'lodash-es-with-subpaths/nthArg';
 
 describe('nthArg', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof nthArg, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof nthArg, 'function');
     });
 });

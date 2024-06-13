@@ -3,7 +3,7 @@ import assert from 'assert';
 import { trimStart } from 'lodash-es';
 
 describe('trimStart', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof trimStart, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof trimStart, 'function');
     });
 });

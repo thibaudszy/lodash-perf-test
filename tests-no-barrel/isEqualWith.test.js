@@ -3,7 +3,7 @@ import assert from 'assert';
 import isEqualWith from 'lodash-es-with-subpaths/isEqualWith';
 
 describe('isEqualWith', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isEqualWith, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isEqualWith, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import { toSafeInteger } from 'lodash-es';
 
 describe('toSafeInteger', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof toSafeInteger, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof toSafeInteger, 'function');
     });
 });

@@ -3,7 +3,7 @@ import assert from 'assert';
 import map from 'lodash-es-with-subpaths/map';
 
 describe('map', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof map, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof map, 'function');
     });
 });

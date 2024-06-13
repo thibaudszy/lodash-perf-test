@@ -3,7 +3,7 @@ import assert from 'assert';
 import forIn from 'lodash-es-with-subpaths/forIn';
 
 describe('forIn', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof forIn, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof forIn, 'function');
     });
 });

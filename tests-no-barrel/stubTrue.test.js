@@ -3,7 +3,7 @@ import assert from 'assert';
 import stubTrue from 'lodash-es-with-subpaths/stubTrue';
 
 describe('stubTrue', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof stubTrue, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof stubTrue, 'function');
     });
 });

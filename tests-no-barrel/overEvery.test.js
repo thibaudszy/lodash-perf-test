@@ -3,7 +3,7 @@ import assert from 'assert';
 import overEvery from 'lodash-es-with-subpaths/overEvery';
 
 describe('overEvery', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof overEvery, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof overEvery, 'function');
     });
 });

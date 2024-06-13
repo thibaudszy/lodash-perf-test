@@ -3,7 +3,7 @@ import assert from 'assert';
 import replace from 'lodash-es-with-subpaths/replace';
 
 describe('replace', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof replace, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof replace, 'function');
     });
 });

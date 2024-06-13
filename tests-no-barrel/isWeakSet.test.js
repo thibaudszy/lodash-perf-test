@@ -3,7 +3,7 @@ import assert from 'assert';
 import isWeakSet from 'lodash-es-with-subpaths/isWeakSet';
 
 describe('isWeakSet', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof isWeakSet, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof isWeakSet, 'function');
     });
 });

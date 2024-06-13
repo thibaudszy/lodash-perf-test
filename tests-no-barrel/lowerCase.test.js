@@ -3,7 +3,7 @@ import assert from 'assert';
 import lowerCase from 'lodash-es-with-subpaths/lowerCase';
 
 describe('lowerCase', () => {
-    it('should work as expected', () => {
-        assert.strictEqual(typeof lowerCase, function);
+    it('should be of the expected type', () => {
+        assert.strictEqual(typeof lowerCase, 'function');
     });
 });
